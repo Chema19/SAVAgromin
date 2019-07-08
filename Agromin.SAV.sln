@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Web", "Agromin.SAV.Web\Agromin.SAV.Web.csproj", "{13ECC56D-5B40-4BF9-8553-DB26918EA28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Api", "Agromin.SAV.Api\Agromin.SAV.Api.csproj", "{3F724CC3-056E-42C4-B9BB-1665DF8C9A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Data", "Agromin.SAV.Data\Agromin.SAV.Data.csproj", "{19332D48-256E-4959-BFE4-7E4717B4CD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Helpers", "Agromin.SAV.Helpers\Agromin.SAV.Helpers.csproj", "{91DCBF32-EC2C-4942-A8E1-4F8778F030C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Entities", "Agromin.SAV.Entities\Agromin.SAV.Entities.csproj", "{B76F94B0-906E-47FB-BC35-562E0F3EA539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Test", "Agromin.SAV.Test\Agromin.SAV.Test.csproj", "{A69E9E00-2749-457B-8007-2E917A98AD1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13ECC56D-5B40-4BF9-8553-DB26918EA28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ECC56D-5B40-4BF9-8553-DB26918EA28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ECC56D-5B40-4BF9-8553-DB26918EA28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ECC56D-5B40-4BF9-8553-DB26918EA28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F724CC3-056E-42C4-B9BB-1665DF8C9A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F724CC3-056E-42C4-B9BB-1665DF8C9A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F724CC3-056E-42C4-B9BB-1665DF8C9A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F724CC3-056E-42C4-B9BB-1665DF8C9A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19332D48-256E-4959-BFE4-7E4717B4CD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19332D48-256E-4959-BFE4-7E4717B4CD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19332D48-256E-4959-BFE4-7E4717B4CD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19332D48-256E-4959-BFE4-7E4717B4CD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DCBF32-EC2C-4942-A8E1-4F8778F030C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DCBF32-EC2C-4942-A8E1-4F8778F030C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DCBF32-EC2C-4942-A8E1-4F8778F030C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DCBF32-EC2C-4942-A8E1-4F8778F030C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CE2EE34-2BF1-4579-A33C-A9F2F1DCBD7D}
+	EndGlobalSection
+EndGlobal

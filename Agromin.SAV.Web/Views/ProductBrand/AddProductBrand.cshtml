@@ -1,0 +1,39 @@
+﻿@model Agromin.SAV.Web.ViewModel.ProductBrand.AddEditProductBrandViewModel
+
+@{
+    ViewBag.Title = Model.ProductBrandId.HasValue ? "Editar marca producto" : "Agregar marca producto";
+    ViewBag.ModalIcon = "fa fa-ProductBrand";
+    ViewBag.ModalSize = "md";
+}
+
+@Html.HiddenFor(x => x.ProductBrandId)
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+
+            <form method="post">
+
+                <div class="col-md-12 mb-3">
+                    <label for="" class="col-form-label">@Html.LabelFor(x => x.ProductId)<span class="text-danger">*</span></label>
+                    @Html.DropDownListFor(x => x.ProductId, new SelectList(Model.LstProduct, "ProductId", "Name"), "Producto", new { @class = "form-control" })
+                    @*<select name="" id="" class="DepartmentId" value=""></select>*@
+                    <div class="invalid-tooltip">
+                        Please provide a valid state.
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="" class="col-form-label">@Html.LabelFor(x => x.BrandId)<span class="text-danger">*</span></label>
+                    @Html.DropDownListFor(x => x.BrandId, new SelectList(Model.LstBrand, "BrandId", "Name"), "Marca", new { @class = "form-control" })
+                    <div class="invalid-tooltip">
+                        Please provide a valid state.
+                    </div>
+                </div>
+                <button class="btn btn-success btn-xs" type="submit"><i class="fe-save"></i> Guardar</button>
+
+            </form>
+        </div> <!-- end card-body-->
+    </div>
+</div>
+
+
+
