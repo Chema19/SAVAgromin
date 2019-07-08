@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Helpers", "Agro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Entities", "Agromin.SAV.Entities\Agromin.SAV.Entities.csproj", "{B76F94B0-906E-47FB-BC35-562E0F3EA539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agromin.SAV.Test", "Agromin.SAV.Test\Agromin.SAV.Test.csproj", "{A69E9E00-2749-457B-8007-2E917A98AD1A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B76F94B0-906E-47FB-BC35-562E0F3EA539}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A69E9E00-2749-457B-8007-2E917A98AD1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
